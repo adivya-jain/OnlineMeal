@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- header section started -->
+    <header class="header">
+        <!-- <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>groco</a> -->
+        <a href="#" class="logo"><i class="fa-solid fa-cloud-meatball"></i>DJ Meals!</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#Book">Book</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa-regular fa-bell"></div>
+            <div class="fas fa-shopping-basket" id="cart-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+    </header>
+
+    <section id="home">
+        <img src="hellofresh.jpeg" alt="Home Background">
+    </section>
+
+
+    <section id="menu">
+        <h1 class="heading">Our <span>Menu</span></h1>
+        <nav class="navbar">
+            <a href="#All" onclick="showAll()">All Meals</a>
+            <a href="#Burger" onclick="showBurgers()">Burgers</a>
+            <a href="#Fries" onclick="showFries()">Fries</a>
+            <a href="#Pizza" onclick="showPizza()">Pizza</a>
+            <a href="#Shakes" onclick="showShakes()">Shake</a>
+        </nav>
+
+        <div class="container">
+            <div class="menu-item card burger">
+                <img src="https://via.placeholder.com/150x150" alt="Menu Item Image">
+                <h3>Aloo tikki burger</h3>
+                <p>Description of the menu item goes here.</p>
+                <span class="price">$10.99</span>
+            </div>
+            <div class="menu-item card burger">
+                <img src="https://via.placeholder.com/150x150" alt="Menu Item Image">
+                <h3>Paneer burger</h3>
+                <p>Description of the menu item goes here.</p>
+                <span class="price">$10.99</span>
+            </div>
+            <div class="menu-item card burger">
+                <img src="https://via.placeholder.com/150x150" alt="Menu Item Image">
+                <h3>Paneer cheese Burger</h3>
+                <p>Description of the menu item goes here.</p>
+                <span class="price">$10.99</span>
+            </div>
+
+
+
+
+            <div class="menu-item card fries">
+                <img src="https://via.placeholder.com/150x150" alt="Menu Item Image">
+                <h3>Fries without cheese dip</h3>
+                <p>Description of the menu item goes here.</p>
+                <span class="price">$10.99</span>
+            </div>
+            <div class="menu-item card fries">
+                <img src="https://via.placeholder.com/150x150" alt="Menu Item Image">
+                <h3>Fries with cheese dip</h3>
+                <p>Description of the menu item goes here.</p>
+                <span class="price">$10.99</span>
+            </div>
+
+
+
+            <div class="menu-item card pizza">
+                <img src="https://via.placeholder.com/150x150" alt="Menu Item Image">
+                <h3>CHilli panner Pizza</h3>
+                <p>Description of the menu item goes here.</p>
+                <span class="price">$10.99</span>
+            </div>
+            <div class="menu-item card pizza">
+                <img src="https://via.placeholder.com/150x150" alt="Menu Item Image">
+                <h3>Onion Pizza</h3>
+                <p>Description of the menu item goes here.</p>
+                <span class="price">$10.99</span>
+            </div>
+            <div class="menu-item card pizza">
+                <img src="https://via.placeholder.com/150x150" alt="Menu Item Image">
+                <h3>Corn Pizza</h3>
+                <p>Description of the menu item goes here.</p>
+                <span class="price">$10.99</span>
+            </div>
+
+
+            <div class="menu-item card shake">
+                <img src="https://via.placeholder.com/150x150" alt="Menu Item Image">
+                <h3>Cold Coffee with Kit Kat</h3>
+                <p>Description of the menu item goes here.</p>
+                <span class="price">$10.99</span>
+            </div>
+            <div class="menu-item card shake">
+                <img src="https://via.placeholder.com/150x150" alt="Menu Item Image">
+                <h3>Cold Coffee with Oreo</h3>
+                <p>Description of the menu item goes here.</p>
+                <span class="price">$10.99</span>
+            </div>
+</section>
+
+
+<section id="about">
+    <h1 class="heading"> <span>About</span> Us</h1>
+    
+
+
+</section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
